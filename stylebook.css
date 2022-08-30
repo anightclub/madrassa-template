@@ -284,7 +284,7 @@ ul {
     display: flex;
 }
 .border img{
-    width: 674.5px;
+    width: 50%;
 }
 .reception {
   height: 100vh;
@@ -328,7 +328,7 @@ ul {
   background-image: url(vecteezy_gradient-islamic-pattern-background_.jpg);
   background-repeat: no-repeat;
   background-attachment: initial;
-  background-size: 100%;
+  background-size: 100% 100%;
   display: grid;
   grid-template-columns: 250px 250px 250px 250px;
   justify-content: center;
@@ -361,6 +361,12 @@ ul {
   display: grid;
   grid-template-columns: 220px 220px 320px 220px 220px;
   /* padding-top: 90px; */
+}
+.dite5{
+  margin-top: 50px;
+}
+.dite{
+  margin-top: 120px;
 }
 .form{
   height: 100vh;
@@ -487,3 +493,89 @@ ul {
 .list a:hover{
   font-size: large;
 }
+
+/* start of desktop styles */
+
+@media screen and (max-width: 991px) {
+
+
+}
+  
+  @media screen and (max-width: 767px) {
+    .overlay img {
+      width: 400px;
+    }  
+  
+  }
+  
+  @media screen and (max-width: 576px) {
+    .overlay img {
+      width: 300px;
+    }
+    .container.active .main {
+      animation: main-animation 0.5s ease;
+      cursor: pointer;
+      transform: perspective(1300px) rotateY(10deg) translateZ(280px) scale(0.5);
+    }
+    .subhead h2{
+      margin-bottom: 20px;
+      font-size: 25px;
+    }
+    .kids{
+      width: 400px;
+      margin-top: 215px;
+    }
+    .mehrab{
+      grid-template-columns: 250px 250px;
+      height: 140vh;
+    }
+    .blocks{
+      margin: 40px 30px 5px 30px;
+    }
+    .slides{
+      height: max-content;
+      background-color: rgba(33, 52, 26, 0.987);
+      justify-content: center;
+      display: grid;
+      grid-template-columns: 220px 220px;
+      padding-bottom: 10px;
+    }
+    .dite{
+      margin-top: 50px;
+    }
+    .dite5{
+      display: none;
+    }
+    .form{
+      height: max-content;
+      padding: 10vh 5vh 10vh 5vh;
+    }
+    .add{
+      height: 950px;
+      width: 370px;
+    }
+    .name{
+      height: 40px;
+      width: 270px;
+    }
+    .address{
+      height: 120px;
+      width: 270px;
+    }
+    .footer{
+      height: 100vh;
+      grid-template-rows: 50vh 50vh;
+    }
+    .foot-top{
+      grid-template-columns: 1fr;
+      width: 100%;
+    }
+    .hide{
+      display: none;
+    }
+    .foot-bottom{
+      grid-template-columns: 1fr;
+    }
+    
+  
+  }
