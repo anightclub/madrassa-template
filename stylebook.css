@@ -85,7 +85,7 @@
 }
 
 header {
-  min-height: 80vh;
+  min-height: 100vh;
   width: 100%;
   position: relative;
 }
@@ -96,13 +96,14 @@ header {
   height: 100%;
   top: 0;
   left: 0;
-  background-color: rgba(43, 51, 59, 0.8);
+  background-color: rgba(254, 252, 252, 0.109);
+  
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .overlay img {
-    width: 500px;
+    width: 350px;
     margin-top: 60px;
 }
 .inner {
@@ -216,13 +217,17 @@ ul {
 .shadow {
   position: absolute;
   width: 100%;
-  height: 80vh;
+  height: 100vh;
   top: 0;
   left: 0;
   transform-style: preserve-3d;
   transform-origin: left;
   transition: 0.5s;
-  background-color: rgb(58, 255, 3);
+  background-image: url(itl.cat_university-wallpaper_3285571.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100%;
+  background-attachment: inherit;
 }
 
 .shadow.one {
@@ -356,7 +361,7 @@ ul {
 /* slide  */
 .slides{
   height: 60vh;
-  background-color: rgba(33, 52, 26, 0.987);
+  background-color: rgba(0, 0, 0, 0.338);
   justify-content: center;
   display: grid;
   grid-template-columns: 220px 220px 320px 220px 220px;
@@ -370,14 +375,14 @@ ul {
 }
 .form{
   height: 100vh;
-  background-color: azure;
+  background-color: #eee;
   padding-top: 10vh;
   direction: rtl;
 }
 .add{
   height: 80vh;
   width: 1000px;
-  background-color: #409cff;
+  background-color: silver;
   margin: auto;
   border-radius: 20px;
   border: 3px double silver;
@@ -423,9 +428,8 @@ ul {
 }
 .donation{
   height: 40vh;
-  background-color: rgba(33, 52, 26, 0.987);
+  background-color: #eee;
   text-align: center;
-  color: white;
   padding-top: 5x;
 }
 .donation h4{
@@ -470,6 +474,9 @@ ul {
   margin-right: 270px;
   margin-top: -70px;
 }
+.iconn .show{
+  visibility: hidden;
+}
 .icons{
   font-size: 40px;
   padding-right: 60px;
@@ -493,6 +500,30 @@ ul {
 .list a:hover{
   font-size: large;
 }
+/* about page css */
+.about{
+  direction: rtl;
+  padding: 50px;
+  background-image: url(UrduDesigner-1661510991596.png);
+  background-repeat: repeat;
+  background-size: 90px 90px;
+}
+.about div{
+  margin: 30px;
+  background-color: #eee;
+  padding: 20px;
+}
+.about div h2{
+  text-align: center;
+  font-size: 50px;
+  padding-bottom: 10px;
+}
+.peragraph{
+  justify-content: right;
+  font-size: larger;
+  word-spacing: 2px;
+  padding-bottom: 10px;
+}
 
 /* start of desktop styles */
 
@@ -501,16 +532,16 @@ ul {
 
 }
   
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 768px) {
     .overlay img {
-      width: 400px;
+      width: 320px;
     }  
   
   }
   
   @media screen and (max-width: 576px) {
     .overlay img {
-      width: 300px;
+      width: 280px;
     }
     .container.active .main {
       animation: main-animation 0.5s ease;
@@ -524,6 +555,9 @@ ul {
     .kids{
       width: 400px;
       margin-top: 215px;
+    }
+    .padding{
+      display: none;
     }
     .mehrab{
       grid-template-columns: 250px 250px;
@@ -575,6 +609,27 @@ ul {
     }
     .foot-bottom{
       grid-template-columns: 1fr;
+    }
+    .iconn .show{
+      visibility: visible;
+    }
+    .iconn .show button{
+      background-color: #1179e7;
+      border-radius: 10px;
+      padding: 8px 20px 8px 20px;
+      font-size: 20px;
+      margin: 60px 50px 0px 0px;
+      color: white;
+      border: 2px solid white;
+    }
+    .iconn img{
+      width: 100px;
+      margin-right: 300px;
+      margin-top: -130px;
+    }
+    
+    .about div h2{
+      font-size: xx-large;
     }
     
   
