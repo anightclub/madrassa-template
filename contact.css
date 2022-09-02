@@ -1,0 +1,33 @@
+.contacts{
+    margin-top: 30px;
+    font-weight: lighter;
+    font-size: 40px;
+    margin-left: 100px;
+}
+.cLine{
+    width: 85%;
+    margin: auto;
+    border: 1 px solid;
+}
+.question{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+h3{
+    margin-top: 40px;
+    font-weight: lighter;
+    font-size: 40px;
+    margin-left: 100px;
+}
+.p{
+    margin-left: 100px;
+    font-weight: lighter;
+    margin-top: 20px;
+}
+.pad{
+    margin-top: 50px;
+}
+.bold{
+    font-weight: bolder;
+}

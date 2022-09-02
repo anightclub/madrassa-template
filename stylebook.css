@@ -12,7 +12,7 @@
   min-height: 80vh;
   width: 100%;
   background-color: #485461;
-  background-image: linear-gradient(135deg, #485461 0%, #28313b 74%);
+  background-image: linear-gradient(135deg, #485461 0%, #28313b 22%);
   overflow-x: hidden;
   transform-style: preserve-3d;
 }
@@ -96,7 +96,7 @@ header {
   height: 100%;
   top: 0;
   left: 0;
-  background-color: rgba(254, 252, 252, 0.109);
+  background-color: rgba(255, 255, 255, 0.026);
   
   display: flex;
   justify-content: center;
@@ -361,7 +361,11 @@ ul {
 /* slide  */
 .slides{
   height: 60vh;
-  background-color: rgba(0, 0, 0, 0.338);
+  /* background: linear-gradient(to bottom left, #f6b849 20%, #444fa5 65%); */
+  background-image: url(vecteezy_gradient-islamic-pattern-background_.jpg);
+  background-repeat: no-repeat;
+  background-attachment: initial;
+  background-size: 100% 100%;
   justify-content: center;
   display: grid;
   grid-template-columns: 220px 220px 320px 220px 220px;
@@ -439,7 +443,7 @@ ul {
   display: grid;
   grid-template-rows: 35vh 13vh;
   background-color: #485461;
-  height: 50vh;
+  height: 53vh;
   direction: rtl;
   color: white;
 }
