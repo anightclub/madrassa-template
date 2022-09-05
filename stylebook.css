@@ -367,12 +367,11 @@ ul {
   background-attachment: initial;
   background-size: 100% 100%;
   justify-content: center;
-  display: grid;
-  grid-template-columns: 220px 220px 320px 220px 220px;
+  margin: auto;
   /* padding-top: 90px; */
 }
 .dite5{
-  margin-top: 50px;
+margin-left: 46%;
 }
 .dite{
   margin-top: 120px;
